@@ -54,7 +54,7 @@ function callFriend(name) {
 
 //Code Here
 
-let callJake = callFriend("Jake")
+let callJake = callFriend("Jake", "435-555-9248")
 
 ////////// PROBLEM 3 //////////
 
@@ -218,8 +218,9 @@ function secretNumber() {
 
 function timeOutCounter() {
   for (var i = 0; i <= 5; i++) {
+    let index = i;
     setTimeout(function() {
-      console.log(i);
+      console.log(index);
     }, i * 1000);
   }
 }
